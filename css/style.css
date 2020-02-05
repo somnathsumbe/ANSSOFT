@@ -153,7 +153,6 @@ ul.nav-honey {
 div#word-mark h1 a {
     color: #fff;
     font-size: 1em;
-    text-transform: uppercase;
     font-weight: 600;
     line-height: 0;
     letter-spacing: 1px;
@@ -972,7 +971,6 @@ p.sub {
 .footer-end-grid h2 a {
     color: #333;
     font-size: 1.2em;
-    text-transform: uppercase;
     font-weight: 900;
     line-height: 0;
     letter-spacing: 1px;
