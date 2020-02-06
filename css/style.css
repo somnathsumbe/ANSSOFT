@@ -109,7 +109,7 @@ nav.main-header.navShadow {
     -webkit-box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
     height: 80px;
-    background:#ffd900;;
+    background:#000000;;
 }
 
 nav.navShadow #word-mark {
