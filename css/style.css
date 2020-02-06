@@ -257,7 +257,6 @@ div#word-mark h1 a {
     color: #037ef3;
 }
 
-
 /*--/banner--*/
 
 /*-- /header --*/
@@ -269,7 +268,7 @@ div#word-mark h1 a {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    height:40vw;
+    height:45vw;
     position: relative;
     z-index: 0;
 }
@@ -1087,6 +1086,10 @@ ul.social-icons li a:hover {
     .contact {
         height: 51vw;
     }
+
+    h4.text-white.font-size-class.aos-init.aos-animate {
+        font-size: 24px;
+    }
 }
 
 @media(max-width:1366px) {
@@ -1183,6 +1186,9 @@ ul.social-icons li a:hover {
     .proj_gallery_grid1_pos h3 {
         font-size: 0.8em;
         letter-spacing: 1px;
+    }
+    h4.text-white.font-size-class.aos-init.aos-animate {
+        font-size: 16px;
     }
 }
 
