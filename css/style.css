@@ -7,6 +7,9 @@ body {
     background: #fff;
 }
 
+a.text-white.banner-info.logo {
+    margin-top: -10px;
+}
 body a {
     text-decoration: none;
     transition: 0.5s all;
@@ -1172,7 +1175,7 @@ ul.social-icons li a:hover {
         margin-top: 4em;
     }
     .contact {
-        height:42vw;
+        height:70vw;
     }
     .proj_gallery_grid1_pos {
         padding: 0.5em 1em;
@@ -1324,7 +1327,7 @@ ul.social-icons li a:hover {
         height: 43vw;
     }
     .contact {
-        height:42vw;
+        height:75vw;
     }
     .footer-end-grid h2 a {
         font-size: 1em;
@@ -1595,7 +1598,7 @@ ul.social-icons li a:hover {
         height: 97vw;
     }
     .contact {
-        height:100vw;
+        height:190vw;
     }
     h4.sub-tittle-w3 {
         font-size: 0.8em;
@@ -1610,7 +1613,7 @@ ul.social-icons li a:hover {
         width: 49%;
     }
     .contact {
-        height: 196vw;
+        height: 206vw;
     }
     .service-in .card {
         padding: 1em 0.5em;
@@ -1650,7 +1653,7 @@ ul.social-icons li a:hover {
         height: 114vw;
     }
     .contact {
-        height:115vw;
+        height:215vw;
     }
     .banner_section {
         height: 74vw;
@@ -1671,7 +1674,7 @@ ul.social-icons li a:hover {
         font-size: 1.4em;
     }
     .contact {
-        height:138vw;
+        height:250vw;
     }
     .testimonials {
         height: 130vw;
@@ -1686,6 +1689,13 @@ ul.social-icons li a:hover {
         padding-left: 10px;
         float: left;
         width: 64%;
+    }
+    p {
+        font-size: 0.9em;
+        color: #8c9398;
+        line-height: 2em;
+        letter-spacing: 1px;
+        text-align: center;
     }
 }
 
