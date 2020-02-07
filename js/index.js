@@ -9,8 +9,7 @@ function sendEmail() {
 		Password: "Anssoftware@2013",
 		To: 'anssoftware2013@gmail.com',
 		From: "anssoftware2013@gmail.com",
-		Subject:subject,
-		Body: " Name: "+ name+ "</br>" + " Email: "+ email+" </br>" +" Massage: "+ mass ,
+		Body: " Name: "+ name+ "" + "Mobile Number:"+mobile+" Email: "+ email+"" +" Massage: "+ mass ,
 		
 	}).then(
 		 message=>"mail sent successfully"
