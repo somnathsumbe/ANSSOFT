@@ -1,4 +1,3 @@
-
 html,
 body {
     margin: 0;
@@ -10,6 +9,7 @@ body {
 a.text-white.banner-info.logo {
     margin-top: -10px;
 }
+
 body a {
     text-decoration: none;
     transition: 0.5s all;
@@ -23,7 +23,6 @@ body a {
 a:hover {
     text-decoration: none;
 }
-
 
 input[type="button"],
 input[type="submit"],
@@ -62,8 +61,8 @@ ul {
     padding: 0;
 }
 
-.text-yellow{
-    color:#ffd900;
+.text-yellow {
+    color: #ffd900;
 }
 
 
@@ -109,7 +108,8 @@ nav.main-header.navShadow {
     -webkit-box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
     height: 80px;
-    background:#000000;;
+    background: #000000;
+    ;
 }
 
 nav.navShadow #word-mark {
@@ -268,7 +268,7 @@ div#word-mark h1 a {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    height:45vw;
+    height: 45vw;
     position: relative;
     z-index: 0;
 }
@@ -429,7 +429,7 @@ h4.progress-tittle-w3 {
 }
 
 .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .show>.nav-link {
     color: #fff;
     background: #007bff;
 }
@@ -760,6 +760,7 @@ p.sub {
 }
 
 .contact_grid_right input[type="text"],
+.contact_grid_right input[type="number"],
 .contact_grid_right input[type="email"],
 .contact_grid_right textarea {
     outline: none;
@@ -773,7 +774,7 @@ p.sub {
 }
 
 .contact_grid_right textarea {
-    min-height: 196px;
+    min-height: 125px;
     resize: none;
     border-radius: 0.25rem;
     background: none;
@@ -928,9 +929,11 @@ p.sub {
         padding: 0;
         margin-top: 1em;
     }
+
     .input {
         max-width: 100%;
     }
+
     .map iframe {
         width: 100%;
         min-height: 303px;
@@ -948,11 +951,13 @@ p.sub {
     .mail_form input[type="submit"] {
         width: 40%;
     }
+
     .mail_form textarea {
         padding: .9em 0.9em;
         margin: 1.3em 0;
         min-height: 140px;
     }
+
     .contact-map iframe {
         width: 100%;
         height: 250px;
@@ -1081,8 +1086,9 @@ ul.social-icons li a:hover {
         -moz-background-size: cover;
         -o-background-size: cover;
         -ms-background-size: cover;
-        height:20vw;
+        height: 20vw;
     }
+
     .contact {
         height: 51vw;
     }
@@ -1096,6 +1102,7 @@ ul.social-icons li a:hover {
     .contact {
         height: 55vw;
     }
+
     .testimonials {
         background: url(../images/testimonials.jpg) no-repeat 0px -30px;
         background-size: cover;
@@ -1105,6 +1112,7 @@ ul.social-icons li a:hover {
         -ms-background-size: cover;
         height: 35vw;
     }
+
     .address-right h6 {
         font-size: 0.8em;
         letter-spacing: 1px;
@@ -1115,12 +1123,15 @@ ul.social-icons li a:hover {
     div#word-mark h1 a {
         font-size: 0.85em;
     }
+
     .address-grid i {
         font-size: 1.5em;
     }
+
     .testimonials_grid-inn i {
         font-size: 2em;
     }
+
     .testimonials_grid p {
         width: 70%;
         margin: 1em auto 0;
@@ -1128,6 +1139,7 @@ ul.social-icons li a:hover {
         letter-spacing: 1px;
         font-size: 0.8em;
     }
+
     .stats {
         height: 32vw;
     }
@@ -1137,17 +1149,21 @@ ul.social-icons li a:hover {
     .banner-info h5 {
         font-size: 1em;
     }
+
     .banner-info h3 {
         font-size: 3em;
     }
+
     #brand {
         padding-left: 30px;
         float: left;
         width: 22%;
     }
+
     .stats {
         height: 37vw;
     }
+
     .testimonials {
         background: url(../images/testimonials.jpg) no-repeat 0px 0px;
         background-size: cover;
@@ -1157,6 +1173,7 @@ ul.social-icons li a:hover {
         -ms-background-size: cover;
         height: 40vw;
     }
+
     .contact {
         height: 66vw;
     }
@@ -1166,27 +1183,34 @@ ul.social-icons li a:hover {
     .testimonials_grid p {
         width: 100%;
     }
+
     .nav-honey li {
         margin-left: 8px;
         list-style: none;
     }
+
     .testimonials {
         height: 43vw;
     }
+
     a.carousel-control-next.test,
     a.carousel-control-prev.test {
         margin-top: 4em;
     }
+
     .contact {
-        height:70vw;
+        height: 70vw;
     }
+
     .proj_gallery_grid1_pos {
         padding: 0.5em 1em;
     }
+
     .proj_gallery_grid1_pos h3 {
         font-size: 0.8em;
         letter-spacing: 1px;
     }
+
     h4.text-white.font-size-class.aos-init.aos-animate {
         font-size: 16px;
     }
@@ -1198,6 +1222,7 @@ ul.social-icons li a:hover {
         font-size: 0.8em;
         letter-spacing: 1px;
     }
+
     h4.progress-tittle-w3 {
         font-size: 0.8em;
         margin-bottom: 0;
@@ -1210,38 +1235,49 @@ ul.social-icons li a:hover {
         outline: none;
         padding: 9px 15px;
     }
+
     .service-in:nth-child(2) {
         margin: 1em 0;
     }
+
     .stats {
         height: 27vw;
     }
+
     .stats_info i {
         font-size: 2em;
     }
+
     .stats_info p {
         font-size: 2em;
         line-height: 1.5em;
     }
+
     .stats_info i {
         font-size: 2em;
         margin-bottom: 0.5em;
     }
+
     .contact_grid_right textarea {
         min-height: 160px;
     }
+
     .contact_grid_right {
         margin-top: 2em;
     }
+
     h3.tittle-w3 {
         font-size: 2.2em;
     }
+
     .testimonials {
         height: 36vw;
     }
+
     .contact {
         height: 61vw;
     }
+
     .address {
         margin: 0;
         margin-top: 2em;
@@ -1251,15 +1287,18 @@ ul.social-icons li a:hover {
 /*** Responsive Menu For Smaller Device ***/
 
 @media screen and (max-width:900px) {
+
     /**nav**/
     #menu-toggle {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
+
     nav.main-header {
         height: 75px;
     }
+
     ul.nav-honey {
         display: inline-block;
         width: 98vw;
@@ -1271,23 +1310,28 @@ ul.social-icons li a:hover {
         transition: all 0.3s;
         left: 0px;
     }
+
     div#word-mark h1 a {
         font-size: 0.9em;
     }
+
     nav.main-header.navShadow {
         height: 65px;
     }
+
     ul.showMenu li {
         height: auto;
         opacity: 1;
         visibility: visible;
         padding-top: 2em;
     }
+
     ul.showMenu li {
         height: auto;
         opacity: 1;
         visibility: visible;
     }
+
     .nav-honey li {
         width: 15%;
         float: left;
@@ -1298,25 +1342,31 @@ ul.social-icons li a:hover {
         -webkit-transition: all 0.3s 0.1s;
         transition: all 0.3s 0.1s;
     }
+
     .nav-honey li a {
         padding: 0;
     }
+
     #head-line {
         -webkit-transform: scale(0.8);
         transform: scale(0.8);
     }
+
     ul.nav-honey.showMenu li {
         background: #111;
         padding: 1em 0;
     }
+
     ul.nav-honey.showMenu li.login {
         padding: 0.77em 0;
     }
+
     #brand {
         padding-left: 30px;
         float: left;
         width: 24%;
     }
+
     /**nav**/
 }
 
@@ -1326,36 +1376,46 @@ ul.social-icons li a:hover {
         float: left;
         width: 25%;
     }
+
     #menu {
         padding-right: 16px;
     }
+
     .testimonials {
         height: 43vw;
     }
+
     .contact {
-        height:75vw;
+        height: 75vw;
     }
+
     .footer-end-grid h2 a {
         font-size: 1em;
     }
+
     .footer-end-grid h2 a i {
         font-size: 0.7em;
         width: 45px;
         height: 45px;
         line-height: 2;
     }
+
     ul.social-icons li {
         margin: 0 0.5em;
     }
+
     .stats {
         height: 32vw;
     }
+
     .contact_grid_right input[type="submit"] {
         padding: 1em 3em;
     }
+
     .banner-info h3 {
         font-size: 2.5em;
     }
+
     h4.sub-tittle-w3 {
         font-size: 0.8em;
     }
@@ -1365,13 +1425,16 @@ ul.social-icons li a:hover {
     .testimonials {
         height: 46vw;
     }
+
     .stats {
         height: 34vw;
     }
+
     .stats_info h4 {
         font-size: 0.7em;
         margin-bottom: 1em;
     }
+
     #brand {
         padding-left: 10px;
         float: left;
@@ -1383,9 +1446,11 @@ ul.social-icons li a:hover {
     .contact {
         height: 124vw;
     }
+
     .testimonials {
         height: 50vw;
     }
+
     .stats {
         height: 30vw;
     }
@@ -1403,19 +1468,24 @@ ul.social-icons li a:hover {
     h3.tittle-w3 {
         font-size: 2em;
     }
+
     .testimonials {
         height: 55vw;
     }
+
     .contact_grid_right textarea {
         min-height: 50px;
     }
+
     .proj_gallery_grid1_pos {
         bottom: 64px;
     }
+
     .nav-pills .nav-link {
         padding: 0.6em 1.5em;
         font-size: 0.85em;
     }
+
     .nav-honey li {
         padding-left: 30px;
     }
@@ -1429,37 +1499,46 @@ ul.social-icons li a:hover {
         letter-spacing: 1px;
         font-size: 0.8em;
     }
+
     .stats {
         height: 33vw;
     }
+
     .stats_info p {
         font-size: 2em;
         line-height: 1.4em;
     }
+
     .stats_info i {
         font-size: 1.5em;
         margin: 0.5em 0 0 0;
     }
+
     .stats_info h4 {
         font-size: 0.8em;
         margin-bottom: 1em;
     }
+
     #brand {
         padding-left: 10px;
         float: left;
         width: 31%;
     }
+
     .testimonials {
         height: 59vw;
     }
+
     .banner-info h5,
     .banner-info h6 {
         margin: 0.5em 0;
         font-size: 0.7em;
     }
+
     .banner-info h5 {
         font-size: 0.9em;
     }
+
     .banner-info h3 {
         font-size: 2.2em;
     }
@@ -1469,26 +1548,33 @@ ul.social-icons li a:hover {
     h3.tittle-w3 {
         font-size: 2em;
     }
+
     .banner_section {
         height: 55vw;
     }
+
     #brand {
         padding-left: 10px;
         float: left;
         width: 33%;
     }
+
     .contact {
         height: 135vw;
     }
+
     .stats {
         height: 36vw;
     }
+
     .testimonials {
         height: 61vw;
     }
+
     .footer-bottom-cpy {
         display: block !important;
     }
+
     .nav-honey li {
         padding-left: 20px;
     }
@@ -1498,54 +1584,68 @@ ul.social-icons li a:hover {
     .banner_section {
         height: 55vw;
     }
+
     div#word-mark h1 a {
         font-size: 0.8em;
     }
+
     a.btn.work {
         padding: 0.5em 1.5em;
         font-size: 0.8em;
     }
+
     .stats {
         height: 60vw;
     }
+
     .contact {
         height: 143vw;
     }
+
     .footer-end-grid h2 {
         margin-top: 1em;
     }
+
     small,
     .small {
         font-size: 65%;
     }
+
     /**nav**/
     ul.nav-honey li a {
         width: 97%;
     }
+
     ul.showMenu li {
         height: auto;
         padding-top: 1em;
     }
+
     ul.nav-honey.showMenu li {
         width: 100%;
         padding-left: 0;
         float: none;
     }
+
     ul.nav-honey.showMenu {
         padding: 1rem;
     }
+
     ul.nav-honey {
         width: 97vw;
         top: 50px !important;
     }
+
     button.btn.login-btn {
         margin-bottom: 1em;
     }
+
     #brand {
         padding-left: 10px;
         float: left;
         width: 35%;
     }
+
     /**nav**/
 }
 
@@ -1553,30 +1653,38 @@ ul.social-icons li a:hover {
     .banner-info h3 {
         font-size: 2em;
     }
+
     .banner-info h5,
     .banner-info h6 {
         font-size: 0.8em;
     }
+
     .banner-info h5 {
         font-size: 0.9em;
     }
+
     h3.tittle-w3 {
         font-size: 1.8em;
     }
+
     #brand {
         padding-left: 10px;
         float: left;
         width: 42%;
     }
+
     .banner_section {
         height: 68vw;
     }
+
     .stats {
         height: 70vw;
     }
+
     .testimonials {
         height: 78vw;
     }
+
     .contact {
         height: 168vw;
     }
@@ -1589,23 +1697,29 @@ ul.social-icons li a:hover {
         float: left;
         width: 48%;
     }
+
     .banner-info h3 {
         font-size: 1.8em;
     }
+
     .banner-info {
         position: absolute;
         top: 37%;
         left: 3%;
     }
+
     .stats {
         height: 82vw;
     }
+
     .testimonials {
         height: 97vw;
     }
+
     .contact {
-        height:190vw;
+        height: 190vw;
     }
+
     h4.sub-tittle-w3 {
         font-size: 0.8em;
         letter-spacing: 2px;
@@ -1618,9 +1732,11 @@ ul.social-icons li a:hover {
         float: left;
         width: 49%;
     }
+
     .contact {
         height: 206vw;
     }
+
     .service-in .card {
         padding: 1em 0.5em;
     }
@@ -1630,17 +1746,21 @@ ul.social-icons li a:hover {
     h3.tittle-w3 {
         font-size: 1.6em;
     }
+
     .testimonials {
         height: 126vw;
     }
+
     .testimonials_grid-inn i {
         font-size: 2em;
     }
+
     #brand {
         padding-left: 10px;
         float: left;
         width: 50%;
     }
+
     .contact_grid_right input[type="submit"] {
         padding: 0.8em 2.5em;
     }
@@ -1652,18 +1772,23 @@ ul.social-icons li a:hover {
         float: left;
         width: 54%;
     }
+
     .stats {
         height: 91vw;
     }
+
     .testimonials {
         height: 114vw;
     }
+
     .contact {
-        height:215vw;
+        height: 215vw;
     }
+
     .banner_section {
         height: 74vw;
     }
+
     div#word-mark h1 a {
         font-size: 0.7em;
     }
@@ -1673,29 +1798,37 @@ ul.social-icons li a:hover {
     .banner-info h3 {
         font-size: 1.5em;
     }
+
     div#word-mark h1 a {
         font-size: 0.6em;
     }
+
     h3.tittle-w3 {
         font-size: 1.4em;
     }
+
     .contact {
-        height:260vw;
+        height: 260vw;
     }
+
     .testimonials {
         height: 130vw;
     }
+
     .stats {
         height: 105vw;
     }
+
     .banner_section {
         height: 87vw;
     }
+
     #brand {
         padding-left: 10px;
         float: left;
         width: 64%;
     }
+
     p {
         font-size: 0.9em;
         color: #8c9398;
@@ -1704,5 +1837,3 @@ ul.social-icons li a:hover {
         text-align: center;
     }
 }
-
-
